@@ -1,0 +1,44 @@
+body{
+    margin: 0px;
+}
+
+#canvas{
+    height: 100vh;
+    width: 100vw;
+    background-color: chocolate;
+    display: flex;
+    flex-direction: row;
+}
+
+.eyeBall{
+    background-color:aliceblue;
+    border-radius: 80%;
+    position:absolute;
+    height: 60%;
+    width: 60%;
+    transform: rotate(180deg);
+}
+
+.eye-frame{
+    align-items: center;
+    background-color: rgb(12, 35, 51);
+    border-bottom-left-radius: 0%;
+    border-bottom-right-radius: 90%;
+    border-top-left-radius: 90%;
+    border-top-right-radius: 0%;
+    display: flex;
+    justify-content: center;
+    height: 60%;
+    transform: rotate(48deg);
+    width: 60%;
+    overflow: hidden;
+}
+
+.half{
+    background-color: transparent;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
